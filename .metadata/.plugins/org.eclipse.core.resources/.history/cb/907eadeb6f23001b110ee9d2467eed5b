@@ -1,0 +1,8 @@
+package main.java.cl.danielnamur.app.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+
+}

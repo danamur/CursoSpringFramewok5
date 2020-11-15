@@ -1,0 +1,6 @@
+package main.java.cl.danielnamur.app.controller;
+
+@Controller
+public class HomeController {
+
+}
