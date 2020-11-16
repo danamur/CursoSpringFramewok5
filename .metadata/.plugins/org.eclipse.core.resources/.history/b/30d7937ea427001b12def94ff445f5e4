@@ -1,0 +1,5 @@
+package cl.danielnamur.app.models;
+
+public class Pelicula {
+
+}
