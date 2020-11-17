@@ -7,7 +7,9 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 
 	<context:component-scan base-package="net.itinajero.app.controller" />
+	
 	<mvc:annotation-driven />
+	
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
@@ -17,6 +19,8 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	
+	<mvc:resources mapping="/resources/**" location="/resources/" />
 
 
 </beans>
